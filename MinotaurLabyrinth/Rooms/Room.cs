@@ -1,4 +1,4 @@
-﻿namespace MinotaurLabyrinth
+namespace MinotaurLabyrinth
 {
     /// <summary>
     /// Represents a generic room in the labyrinth.
@@ -76,6 +76,6 @@
                 return _monster.Display();
             else
                 return new DisplayDetails("[ ]", ConsoleColor.Gray);
-        }
-    }
+        }
+    }
 }
